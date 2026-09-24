@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb144af487a45745bde4a16c1db2bb4, type: 3}
+  m_Name: MoraleConfig
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.Morale.MoraleConfig
+  settings:
+    affectEnemyWaveTiming: 0
+    burstCount: 5
+    burstWindow: 3
+    rageWindow: 3
+    rageHealthFraction: 0.25
+    battleCryVeterans: 3
+    battleCryRadius: 2.5
+    fearRadius: 2.5
+    fearVeteranAge: 10
+    baseDefenseRadius: 3
+    defenseQuietTime: 2
+    confidenceKills: 10
+    confidenceAllowedLosses: 1
+    confidenceRecruitWindow: 8
+    veteranBattles: 3
+    encounterQuietTime: 3
+    veteranDamageBonus: 0.5
+    panic:
+      enabled: 1
+      duration: 5
+      damage: 0
+      attackSpeed: 0
+      moveSpeed: 0
+      damageTaken: 0
+      productionSpeed: -0.5
+    inspiration:
+      enabled: 1
+      duration: 6
+      damage: 0
+      attackSpeed: 0.25
+      moveSpeed: 0
+      damageTaken: 0
+      productionSpeed: 0
+    demoralization:
+      enabled: 1
+      duration: 5
+      damage: -0.15
+      attackSpeed: 0
+      moveSpeed: 0
+      damageTaken: 0
+      productionSpeed: 0
+    battleCry:
+      enabled: 1
+      duration: 0
+      damage: 0.15
+      attackSpeed: 0
+      moveSpeed: 0
+      damageTaken: 0
+      productionSpeed: 0
+    rage:
+      enabled: 1
+      duration: 8
+      damage: 0.3
+      attackSpeed: 0
+      moveSpeed: 0.2
+      damageTaken: 0
+      productionSpeed: 0
+    resilience:
+      enabled: 1
+      duration: 5
+      damage: 0
+      attackSpeed: 0
+      moveSpeed: 0
+      damageTaken: -0.2
+      productionSpeed: 0.2
+    confidence:
+      enabled: 1
+      duration: 6
+      damage: 0.1
+      attackSpeed: 0
+      moveSpeed: 0
+      damageTaken: 0
+      productionSpeed: 0
+    fear:
+      enabled: 1
+      duration: 0
+      damage: 0
+      attackSpeed: -0.2
+      moveSpeed: 0
+      damageTaken: 0
+      productionSpeed: 0

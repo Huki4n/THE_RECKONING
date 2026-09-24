@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6374c9a3ff8bd07449e04412c67a41bb, type: 3}
+  m_Name: TurretData_2_L2
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
+  displayName: Order Ballista
+  cost: 180
+  turretSprite: {fileID: -7897123358221497409, guid: b2f665e108583cf4f97840a6b2f2a6aa, type: 3}
+  projectileSprite: {fileID: -6729405164702160248, guid: 55b1009195b5b0b42a10b1fb7a876259, type: 3}
+  damage: 40
+  attackInterval: 1
+  range: 9
+  projectileSpeed: 10
+  arcHeight: 0
+  splashRadius: 0
+  targetHeight: 0.5

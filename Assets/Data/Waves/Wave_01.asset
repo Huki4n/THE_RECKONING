@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc944c78a2070cc4daa44649710368ec, type: 3}
+  m_Name: Wave_01
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.WaveData
+  delayBeforeWave: 3
+  groups:
+  - unit: {fileID: 11400000, guid: e8a6dd7be9e6e0a4395aece62684bf27, type: 2}
+    count: 2
+    interval: 2
+  - unit: {fileID: 11400000, guid: a3aeed4fabc35ec4783bbe4ae2b5d69e, type: 2}
+    count: 1
+    interval: 10

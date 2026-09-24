@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6374c9a3ff8bd07449e04412c67a41bb, type: 3}
+  m_Name: TurretData_1_L3
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
+  displayName: Stone Thrower
+  cost: 180
+  turretSprite: {fileID: 2749961356649251771, guid: 062f68c603ebfff48b944f25604221e4, type: 3}
+  projectileSprite: {fileID: 8399011212269539787, guid: aca311cae1cb0154f862de6287f64588, type: 3}
+  damage: 80
+  attackInterval: 3
+  range: 11
+  projectileSpeed: 10
+  arcHeight: 1.5
+  splashRadius: 0
+  targetHeight: 0.5

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97262adbd2e3f2d44ab932dad71649c2, type: 3}
+  m_Name: Player_Warrior_L1_Data
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.UnitData
+  displayName: PEASANT
+  prefab: {fileID: 3402461672589709298, guid: 1387c15c58cf94d47b32c057feb7d875, type: 3}
+  cost: 30
+  killReward: 10
+  maximumHealth: 100
+  damage: 15
+  attackInterval: 1
+  attackRange: 0.15
+  moveSpeed: 1.2
+  spawnInterval: 1

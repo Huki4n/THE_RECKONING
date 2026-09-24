@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6374c9a3ff8bd07449e04412c67a41bb, type: 3}
+  m_Name: TurretData_2_L1
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
+  displayName: Arrow Tower
+  cost: 100
+  turretSprite: {fileID: -9130494712356861450, guid: 2bd6042c7979def429759802536dd7b8, type: 3}
+  projectileSprite: {fileID: -7436679544733784272, guid: de14a673f09d0dc4d8060cef0d804191, type: 3}
+  damage: 12
+  attackInterval: 0.3
+  range: 6
+  projectileSpeed: 10
+  arcHeight: 0
+  splashRadius: 0
+  targetHeight: 0.5
