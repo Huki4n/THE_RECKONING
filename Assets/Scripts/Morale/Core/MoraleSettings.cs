@@ -90,7 +90,6 @@ namespace TheReckoning.Morale
                     throw new ArgumentOutOfRangeException(nameof(effect));
             }
         }
-        // Match owns a deep copy. Editing an asset cannot alter an active match halfway through.
         public MoraleSettings Snapshot()
         {
             Validate();

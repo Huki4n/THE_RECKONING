@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: TurretData_2_L1
   m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
   displayName: Arrow Tower
-  cost: 100
+  cost: 96
   turretSprite: {fileID: -9130494712356861450, guid: 2bd6042c7979def429759802536dd7b8, type: 3}
-  projectileSprite: {fileID: -7436679544733784272, guid: de14a673f09d0dc4d8060cef0d804191, type: 3}
-  damage: 12
+  damage: 9.6
   attackInterval: 0.3
   range: 6
   projectileSpeed: 10
   arcHeight: 0
   splashRadius: 0
   targetHeight: 0.5
+  tier: 2
+  ecsTurretId: 3
+  projectileViewPrefab: {fileID: 3785573831885408748, guid: d7823400661e8654cbcb4f3bc060fc65, type: 3}

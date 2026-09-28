@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2125072ce1ebf9f4fadceb9902ad3108, type: 3}
+  m_Name: EraData_2
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.EraData
+  displayName: Era 2
+  units:
+  - {fileID: 11400000, guid: 734ea311b5430c94f94e5acabf34bcc0, type: 2}
+  - {fileID: 11400000, guid: 48ce3b2354c8acf498805c86c2095350, type: 2}
+  turrets:
+  - {fileID: 11400000, guid: 0fbf50d1bedc69f4984825409754464e, type: 2}
+  - {fileID: 11400000, guid: f6f22035fe151f147b452ce73e074972, type: 2}
+  - {fileID: 11400000, guid: f2e07a73930d6aa4c8df1ed5cdb41bdd, type: 2}
+  orderBaseSprite: {fileID: 3009782256624787148, guid: d88d3896c274bb84991178c1673547fd, type: 3}
+  cultBaseSprite: {fileID: 8943539983428880243, guid: a969f1e875fbe8f4ab384f7a8e7f8d5e, type: 3}

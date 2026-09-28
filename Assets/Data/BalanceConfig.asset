@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591206a1fb07f9e40a12bdb0ca94b5e3, type: 3}
+  m_Name: BalanceConfig
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.Balance.BalanceConfig
+  tier1Power: 40
+  tierPowerMultiplier: 2.2
+  goldPerPower: 0.8
+  tankHpPerDps: 12
+  fighterHpPerDps: 6.67
+  strikerHpPerDps: 2.5
+  referenceMoveSpeed: 1.2
+  moveSpeedWeight: 0.2
+  referenceAttackRange: 0.15
+  attackRangeValue: 0.5
+  spawnSecondsPerGold: 0.033333335
+  killRewardFraction: 0.33
+  turretGoldPerDps: 3
+  referenceTurretRange: 6
+  turretRangeWeight: 0.5
+  splashValuePerUnit: 1.5
+  startingGold: 100
+  incomePerSecond: 5
+  baseHoldSeconds: 30
+  baseReferenceAttackers: 5
+  firstWaveDelay: 10
+  waveInterval: 20
+  firstWaveBudget: 80
+  waveGrowth: 1.18
+  targetMatchMin: 180
+  targetMatchMax: 300

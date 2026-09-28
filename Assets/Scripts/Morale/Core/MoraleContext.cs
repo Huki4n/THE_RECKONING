@@ -56,7 +56,6 @@ namespace TheReckoning.Morale
             bool hadFear = auraVisible[TeamUtility.Index(side), (int)MoraleEffect.Fear];
             TeamModifiers(side).Remove(MoraleEffect.Panic);
             fearBlockedUntil[TeamUtility.Index(side)] = Now + immunitySeconds;
-            // Remove any existing local Fear immediately; the aura rule will keep it off.
             foreach (var actor in World.Actors)
                 if (actor.IsAlive && actor.Side == side)
                     UnitModifiers(actor.Id)?.Remove(MoraleEffect.Fear);
@@ -115,7 +114,6 @@ namespace TheReckoning.Morale
         }
         public void Clear()
         {
-            // Stop first; callbacks observe an entirely empty state.
             units.Clear();
             Array.Clear(recruitUntil, 0, 2);
             Array.Clear(fearBlockedUntil, 0, 2);

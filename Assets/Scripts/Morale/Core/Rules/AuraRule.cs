@@ -1,4 +1,5 @@
 using System;
+
 namespace TheReckoning.Morale
 {
     public sealed class AuraRule : IMoraleRule
@@ -35,8 +36,10 @@ namespace TheReckoning.Morale
                 }
                 cry &= c.Settings.battleCry.enabled;
                 fear &= c.Settings.fear.enabled && !c.FearBlocked(target.Side);
+
                 c.Aura(target, MoraleEffect.BattleCry, cry);
                 c.Aura(target, MoraleEffect.Fear, fear);
+
                 cryVisible[side] |= cry;
                 fearVisible[side] |= fear;
             }

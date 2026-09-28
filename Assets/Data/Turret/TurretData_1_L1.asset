@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: TurretData_1_L1
   m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
   displayName: Dart Thrower
-  cost: 50
+  cost: 60
   turretSprite: {fileID: -5162274214325835321, guid: 7712a29636c95bb4fad5b5594dbc518e, type: 3}
-  projectileSprite: {fileID: -186666089945888692, guid: 23041ab6eb16413478e6d69412460840, type: 3}
-  damage: 8
+  damage: 8.8
   attackInterval: 0.4
   range: 5
   projectileSpeed: 10
   arcHeight: 0
   splashRadius: 0
   targetHeight: 0.5
+  tier: 1
+  ecsTurretId: 0
+  projectileViewPrefab: {fileID: 3785573831885408748, guid: 975e4da8b705ad44ba1404962a9c851f, type: 3}

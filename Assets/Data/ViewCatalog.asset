@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23fcc3ad35842a1449729ffc455eb321, type: 3}
+  m_Name: ViewCatalog
+  m_EditorClassIdentifier: TheReckoning.ECS::TheReckoning.ECS.Presentation.ViewCatalog
+  prefabs:
+  - {fileID: 1001999310967629313, guid: d8fbe446c5f1ace48a3eafd4f62dbcdc, type: 3}
+  - {fileID: 1001999310967629313, guid: 4051eb14c6595a8418ff9f922158892d, type: 3}
+  - {fileID: 1001999310967629313, guid: 356cfde4165e1f9419680a7feb5de367, type: 3}
+  - {fileID: 1001999310967629313, guid: cb55b01d192b1d14b804fc14569b01a1, type: 3}
+  - {fileID: 3785573831885408748, guid: 975e4da8b705ad44ba1404962a9c851f, type: 3}
+  - {fileID: 3785573831885408748, guid: 5fda6c87ce7c52b46bd974936d79de5c, type: 3}
+  - {fileID: 3785573831885408748, guid: d9c5ecee32ee04f4fb1b37064bc3b8eb, type: 3}
+  - {fileID: 3785573831885408748, guid: d7823400661e8654cbcb4f3bc060fc65, type: 3}
+  - {fileID: 3785573831885408748, guid: dff2d4a166236af46ae90c6e0c0ad802, type: 3}
+  - {fileID: 3785573831885408748, guid: c3b98f17e06aa264f9abf58871dd2eb9, type: 3}

@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: TurretData_1_L3
   m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
   displayName: Stone Thrower
-  cost: 180
+  cost: 154
   turretSprite: {fileID: 2749961356649251771, guid: 062f68c603ebfff48b944f25604221e4, type: 3}
-  projectileSprite: {fileID: 8399011212269539787, guid: aca311cae1cb0154f862de6287f64588, type: 3}
-  damage: 80
+  damage: 51.6
   attackInterval: 3
   range: 11
   projectileSpeed: 10
   arcHeight: 1.5
-  splashRadius: 0
+  splashRadius: 0.8
   targetHeight: 0.5
+  tier: 3
+  ecsTurretId: 2
+  projectileViewPrefab: {fileID: 3785573831885408748, guid: d9c5ecee32ee04f4fb1b37064bc3b8eb, type: 3}

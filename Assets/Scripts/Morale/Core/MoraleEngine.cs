@@ -72,7 +72,6 @@ namespace TheReckoning.Morale
         {
             if (!Running)
                 return 1;
-            // Percentage bonuses are additive across morale sources and veterancy.
             float total = context.TeamModifiers(actor.Side).Bonus(stat, Now);
             var local = context.UnitModifiers(actor.Id);
             if (local != null)
@@ -100,4 +99,3 @@ namespace TheReckoning.Morale
         }
     }
 }
-    

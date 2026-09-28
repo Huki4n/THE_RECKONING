@@ -1,0 +1,14 @@
+{
+    "name": "TheReckoning.Morale.Core",
+    "rootNamespace": "TheReckoning.Morale",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

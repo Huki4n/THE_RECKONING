@@ -1,3 +1,6 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="TheReckoning.ECS.csproj" />
+  <Project Path="TheReckoning.Morale.Core.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
 </Solution>

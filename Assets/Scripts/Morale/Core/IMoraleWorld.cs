@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 namespace TheReckoning.Morale
 {
-    // Narrow port: rules do not depend on Transform, GameObject or Unity time.
     public interface IMoraleActor
     {
         int Id

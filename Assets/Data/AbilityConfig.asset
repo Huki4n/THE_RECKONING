@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9e4d9d98080c44b4c2f0676cd0c6c, type: 3}
+  m_Name: AbilityConfig
+  m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.AbilityConfig
+  heavenlyWrathDamage: 227
+  heavenlyWrathRadius: 2.1
+  heavenlyWrathDelay: 0.5
+  heavenlyWrathCooldown: 30
+  holyShieldSeconds: 5
+  holyShieldDamageReduction: 0.4
+  holyShieldCooldown: 36
+  inspirationSeconds: 6
+  inspirationDamageBonus: 0.25
+  inspirationAttackSpeedBonus: 0.2
+  inspirationCooldown: 34
+  cleansingSeconds: 3
+  cleansingProductionBonus: 0.2
+  cleansingCooldown: 30
+  cultAbility: 0
+  baseDefenseRadius: 3
+  useFrequentTriggers: 1
+  originalTriggers:
+    curseMinimumOrderUnits: 6
+    curseCooldown: 40
+    blessingBaseHealthFraction: 0.5
+    blessingMinimumNearbyOrderUnits: 3
+    blessingCooldown: 35
+    bloodlustOrderDeaths: 5
+    bloodlustDeathWindow: 3
+    lastStandBaseHealthFraction: 0.25
+  frequentTriggers:
+    curseMinimumOrderUnits: 4
+    curseCooldown: 22
+    blessingBaseHealthFraction: 0.75
+    blessingMinimumNearbyOrderUnits: 2
+    blessingCooldown: 20
+    bloodlustOrderDeaths: 3
+    bloodlustDeathWindow: 5
+    lastStandBaseHealthFraction: 0.5
+  cultEffects:
+    curseMaxHealthDamage: 0.15
+    curseIndicatorSeconds: 2
+    blessingSeconds: 5
+    blessingDamageReduction: 0.3
+    bloodlustSeconds: 5
+    bloodlustDamageBonus: 0.25
+    bloodlustMoveSpeedBonus: 0.15
+    lastStandSeconds: 8
+    lastStandDamageBonus: 0.3
+    lastStandAttackSpeedBonus: 0.2

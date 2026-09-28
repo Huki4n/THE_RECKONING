@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: TurretData_1_L2
   m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
   displayName: Bone Crossbow
-  cost: 100
+  cost: 96
   turretSprite: {fileID: -7140657226200129711, guid: 71dbfde275b291e4aa4050a3b46153b4, type: 3}
-  projectileSprite: {fileID: 8063312916658976642, guid: 021166a9238460d42b717e18b3404c34, type: 3}
-  damage: 25
+  damage: 27.7
   attackInterval: 1
   range: 8
   projectileSpeed: 10
   arcHeight: 0
   splashRadius: 0
   targetHeight: 0.5
+  tier: 2
+  ecsTurretId: 1
+  projectileViewPrefab: {fileID: 3785573831885408748, guid: 5fda6c87ce7c52b46bd974936d79de5c, type: 3}

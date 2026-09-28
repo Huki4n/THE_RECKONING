@@ -1,7 +1,6 @@
 using System;
 namespace TheReckoning.Morale
 {
-    // A retreat out of the zone counts as repelling an attack too.
     public sealed class BaseDefenseRule : IMoraleRule
     {
         private readonly bool[] threatened = new bool[2];

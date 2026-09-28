@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: TurretData_2_L3
   m_EditorClassIdentifier: Assembly-CSharp::TheReckoning.TurretData
   displayName: Trebuchet
-  cost: 300
+  cost: 246
   turretSprite: {fileID: 6160620811066753807, guid: 59216de44ca0d1444ac91548ab4a09cb, type: 3}
-  projectileSprite: {fileID: 8399011212269539787, guid: aca311cae1cb0154f862de6287f64588, type: 3}
-  damage: 120
+  damage: 88.5
   attackInterval: 3.5
   range: 13
   projectileSpeed: 10
   arcHeight: 1.5
-  splashRadius: 0
+  splashRadius: 0.8
   targetHeight: 0.5
+  tier: 4
+  ecsTurretId: 5
+  projectileViewPrefab: {fileID: 3785573831885408748, guid: c3b98f17e06aa264f9abf58871dd2eb9, type: 3}

@@ -1,6 +1,5 @@
 namespace TheReckoning.Morale
 {
-    // Separate windows for casualties and kills; consumed events cannot retrigger a burst.
     public sealed class BurstRule : IMoraleRule
     {
         private readonly RollingWindow[] losses = { new RollingWindow(), new RollingWindow() };
